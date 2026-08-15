@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #171512;
+  color: #F2EDE4;
+  font-family: 'Inter', sans-serif;
+}
+
+.wrap {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 28px 18px 60px;
+  min-height: 100vh;
+}
+
+.brand {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 4px;
+}
+
+.muted { color: #A79E8C; font-size: 13px; margin: 0 0 20px; }
+
+.card {
+  background: #EDE3CF;
+  color: #1B1815;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 14px;
+  border: 1px solid #00000014;
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6B6355;
+  margin-bottom: 4px;
+}
+
+.input, select.input, textarea.input {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 4px;
+  border: 1px solid #C9BFA8;
+  background: #F8F4EA;
+  color: #1B1815;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 12px;
+}
+
+.btn {
+  width: 100%;
+  background: #B23A2E;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn.secondary { background: #1B1815; }
+.btn.small { width: auto; padding: 7px 12px; font-size: 12px; }
+
+.btn-link {
+  display: block;
+  text-align: center;
+  background: #211E1A;
+  border: 1px solid #2A261F;
+  color: #F2EDE4;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+.btn-link.admin { border-color: #B23A2E88; color: #E4A69E; }
+
+.link {
+  background: none;
+  border: none;
+  color: #A79E8C;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 14px;
+}
+
+.error { color: #B23A2E; font-size: 12px; margin-top: 4px; }
+
+.badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.badge.pendente { color: #8A7A5C; background: #8A7A5C22; }
+.badge.aprovado { color: #3E6B4F; background: #3E6B4F22; }
+.badge.recusado { color: #B23A2E; background: #B23A2E22; }
+
+.item {
+  background: #211E1A;
+  border: 1px solid #2A261F;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.item img { width: 100%; max-height: 180px; object-fit: cover; border-radius: 4px; margin-top: 8px; }
+
+.row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.gap { display: flex; gap: 8px; margin-top: 10px; }
+
+.back {
+  display: inline-block;
+  color: #A79E8C;
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+h2.section {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 22px 0 10px;
+}
